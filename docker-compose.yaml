@@ -2,6 +2,8 @@ services:
   keybr:
     build:
       dockerfile: ./Dockerfile
+    environment:
+      - APP_URL=${DOMAIN:-http://127.0.0.1:30044/}
     volumes:
       - ./runtime/state:/app/state
       - ./runtime/data/.env:/app/.env
