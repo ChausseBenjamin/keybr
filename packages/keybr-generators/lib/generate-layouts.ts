@@ -31,6 +31,8 @@ for (const [id, layout] of [
   ["en_colemak", undead(importKlc("layouts/colemak.klc"))],
   ["en_colemak_dh_ansi", undead(importKlc("layouts/colemak_dh_ansi_us.klc"))],
   ["en_colemak_dh_ansi_wide", undead(importKlc("layouts/colemak_dh_ansi_us_wide.klc"))],
+  ["en_coolmak_dh_ansi", undead(importKlc("layouts/colemak_dh_ansi_us_coolmak.klc"))],
+  ["en_coolmak_dh_ansi_wide", undead(importKlc("layouts/colemak_dh_ansi_us_wide_coolmak.klc"))],
   ["en_colemak_dh_iso", undead(importKlc("layouts/colemak_dh_iso_uk.klc"))],
   ["en_colemak_dh_iso_wide", undead(importKlc("layouts/colemak_dh_iso_uk_wide.klc"))],
   ["en_colemak_dh_matrix", undead(importKlc("layouts/colemak_dh_matrix_us.klc"))],

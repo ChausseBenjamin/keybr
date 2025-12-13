@@ -104,6 +104,34 @@ export class Layout implements XEnumItem {
     ),
     /* mod= */ angleWideMod,
   );
+  static readonly EN_COOLMAK_DH_ANSI = new Layout(
+    /* id= */ "en-coolmak-dh",
+    /* xid= */ 0x46,
+    /* name= */ "Coolmak-DH (ANSI)",
+    /* family= */ "coolmak-dh",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.MATRIX,
+    ),
+    /* mod= */ angleMod,
+  );
+  static readonly EN_COOLMAK_DH_ANSI_WIDE = new Layout(
+    /* id= */ "en-coolmak-dh-wide",
+    /* xid= */ 0x45,
+    /* name= */ "Coolmak-DH Wide (ANSI)",
+    /* family= */ "coolmak-dh-wide",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.MATRIX,
+    ),
+    /* mod= */ angleWideMod,
+  );
   static readonly EN_COLEMAK_DH_ISO = new Layout(
     /* id= */ "en-colemak-dh-iso",
     /* xid= */ 0x16,
@@ -1329,6 +1357,8 @@ export class Layout implements XEnumItem {
     Layout.EN_COLEMAK,
     Layout.EN_COLEMAK_DH_ANSI,
     Layout.EN_COLEMAK_DH_ANSI_WIDE,
+    Layout.EN_COOLMAK_DH_ANSI,
+    Layout.EN_COOLMAK_DH_ANSI_WIDE,
     Layout.EN_COLEMAK_DH_ISO,
     Layout.EN_COLEMAK_DH_ISO_WIDE,
     Layout.EN_COLEMAK_DH_MATRIX,

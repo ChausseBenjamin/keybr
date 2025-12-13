@@ -35,6 +35,8 @@ import { LAYOUT_EN_COLEMAK_DH_ANSI_WIDE } from "./layout/en_colemak_dh_ansi_wide
 import { LAYOUT_EN_COLEMAK_DH_ISO } from "./layout/en_colemak_dh_iso.ts";
 import { LAYOUT_EN_COLEMAK_DH_ISO_WIDE } from "./layout/en_colemak_dh_iso_wide.ts";
 import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
+import { LAYOUT_EN_COOLMAK_DH_ANSI } from "./layout/en_coolmak_dh_ansi.ts";
+import { LAYOUT_EN_COOLMAK_DH_ANSI_WIDE } from "./layout/en_coolmak_dh_ansi_wide.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_DVORAK_PROG } from "./layout/en_dvorak_prog.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
@@ -130,6 +132,8 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_COLEMAK, LAYOUT_EN_COLEMAK],
   [Layout.EN_COLEMAK_DH_ANSI, LAYOUT_EN_COLEMAK_DH_ANSI],
   [Layout.EN_COLEMAK_DH_ANSI_WIDE, LAYOUT_EN_COLEMAK_DH_ANSI_WIDE],
+  [Layout.EN_COOLMAK_DH_ANSI, LAYOUT_EN_COOLMAK_DH_ANSI],
+  [Layout.EN_COOLMAK_DH_ANSI_WIDE, LAYOUT_EN_COOLMAK_DH_ANSI_WIDE],
   [Layout.EN_COLEMAK_DH_ISO, LAYOUT_EN_COLEMAK_DH_ISO],
   [Layout.EN_COLEMAK_DH_ISO_WIDE, LAYOUT_EN_COLEMAK_DH_ISO_WIDE],
   [Layout.EN_COLEMAK_DH_MATRIX, LAYOUT_EN_COLEMAK_DH_MATRIX],
