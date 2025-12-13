@@ -61,6 +61,10 @@ export const COLORS = new ThemeList([
     name: "Honey",
   },
   {
+    id: "vague",
+    name: "Vague",
+  },
+  {
     id: "custom",
     name: "Custom...",
   },
